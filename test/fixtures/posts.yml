@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Type: 1
+  Caption: MyText
+  Content: MyText
+  Counter: 1
+  user: one
+
+two:
+  Type: 1
+  Caption: MyText
+  Content: MyText
+  Counter: 1
+  user: two
