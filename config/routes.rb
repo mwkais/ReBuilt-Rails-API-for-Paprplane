@@ -1,3 +1,7 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  post 'userlogin', to: 'main_view#login'
+  get 'userLoad', to: 'main_view#userLoad'
+  get 'postLoad', to: 'main_view#mainPostLoad'
+  post 'requestLoad', to: 'main_view#mainRequestLoad'
+  post 'counterLoad', to: 'main_view#mainCounterLoad'
 end
